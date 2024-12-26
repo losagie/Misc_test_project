@@ -13,7 +13,7 @@ public class Selenium_maven_project2 {
 
 	public static void main(String[] args) {
 		
-		// This code demonstrates how to switch windows/tabs will performing UI automation test
+		// This code demonstrates how to switch windows/tabs while performing UI automation test
 		
 		// TODO Auto-generated method stub
 				WebDriverManager.chromedriver().setup();
