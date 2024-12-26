@@ -1,3 +1,3 @@
-This files are from My local Git repository,
+These files are from My local Git repository,
 
-This codes are for QA automation Engineers
+These codes are for QA automation Engineers
