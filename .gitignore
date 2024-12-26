@@ -1,2 +1,4 @@
-   .idea/vcs.xml
-
+.idea/vcs.xml
+ .,gitignore.swp
+.idea/encodings.xml
+__pycache__/test_data.cpython-312-pytest-8.3.3.pyc
