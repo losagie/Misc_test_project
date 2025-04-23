@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CompleteTestFramework/.idea/CompleteTestFramework.iml" filepath="$PROJECT_DIR$/../CompleteTestFramework/.idea/CompleteTestFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pytestpythonProject.iml" filepath="$PROJECT_DIR$/.idea/pytestpythonProject.iml" />
     </modules>
   </component>
 </project>

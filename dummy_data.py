@@ -2,7 +2,6 @@ from openpyxl.workbook import Workbook
 from faker import Faker
 
 #This program generates dummy test data and write it to an Excel file
-
 wb = Workbook()
 ws = wb.active
 ws["A1"] = "NAME"
@@ -11,13 +10,13 @@ ws["C1"] = "EMAIL"
 
 fk = Faker()
 
-for i in range(2,21):
+for i in range(2,4):
     for j in range(1,4):
         ws.cell(row = i, column = 1).value = fk.name()
         ws.cell(row = i, column = 2).value = fk.user_name()
         ws.cell(row = i, column = 3).value = fk.email()
 
-wb.save("dummy_data.xlsx")
+    wb.save("dummy_data.xlsx")
 
 #Read the dummy data from Excel file
 

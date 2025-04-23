@@ -5,8 +5,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
 
-class TrustedWebTest():
-    def Test_by_Tag(self):
+class Test_Trustedweb():
+    def test_by_Tag(self):
         web_driver = webdriver.Chrome(service=Service(executable_path=(ChromeDriverManager().install())))
         web_driver.implicitly_wait(5)
         web_driver.get("https://trustedinstitute.com")
@@ -21,7 +21,7 @@ class TrustedWebTest():
         web_driver.quit()
 
 
-DemoTag = TrustedWebTest()
-DemoTag.Test_by_Tag()
+DemoTag = Test_Trustedweb()
+DemoTag.test_by_Tag()
 
 
